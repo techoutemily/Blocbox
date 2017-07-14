@@ -32,10 +32,17 @@ body {
 
 article,
 aside,
+details,
+figcaption,
+figure,
 footer,
 header,
+hgroup,
+main,
+menu,
 nav,
-section {
+section,
+summary {
   display: block;
 }
 
