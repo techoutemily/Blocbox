@@ -44,7 +44,7 @@ html, body{
 }
 
  /* Mobile Devices First then Other Devices */
-@media (min-width: 767px) {
+@media (max-width: 767px) {
   .container {
     float: left;
     width: 96%;
