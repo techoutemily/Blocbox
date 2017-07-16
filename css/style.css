@@ -269,7 +269,7 @@ html, body{
    line-height: 15px;
    font-style:italic;
  }
- 
+
  /* TESTIMONIALS */
  .testimonials {
    padding:4em 0;
@@ -319,3 +319,9 @@ html, body{
    font-size:13px;
    margin-top: 30px;
  }
+
+ /* Lowering boxes in Testimonials */
+.lowerbox {
+  position: relative;
+  bottom: -20px;
+}
