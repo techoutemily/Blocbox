@@ -43,6 +43,14 @@ html, body{
 	margin:0 2% 20px;
 }
 
+ /* Mobile Devices First then Other Devices */
+@media (max-width: 767px) {
+  .container {
+    float: left;
+    width: 96%;
+  }
+}
+
 @media (min-width: 768px) {
    .container {
      width: 750px;
@@ -160,4 +168,3 @@ html, body{
    border: 2px solid #2ECC71;
    box-shadow: 0px 2px 0px 0px #22894E;
  }
- 
