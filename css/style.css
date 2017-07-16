@@ -168,3 +168,28 @@ html, body{
    border: 2px solid #2ECC71;
    box-shadow: 0px 2px 0px 0px #22894E;
  }
+
+ /* BENEFITS */
+ .benefits {
+   text-align: center;
+   display:block;
+   position:relative;
+ }
+ .benefits ul {
+   margin: 0 auto;
+   padding:4em 0;
+ }
+ .benefits ul li {
+   list-style-type: none;
+   display: inline-block;
+ }
+ .benefits i {
+   color:#3498DB;
+   font-size:60px;
+   margin:0;
+   vertical-align: middle;
+ }
+ .benefits h2 {
+   color:#3498DB;
+ }
+ 
