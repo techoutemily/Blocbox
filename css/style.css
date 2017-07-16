@@ -325,3 +325,18 @@ html, body{
   position: relative;
   bottom: -20px;
 }
+
+
+ /* Last call to Action - Wilson */
+.lastcall {
+  float: left;
+}
+.lastcall h2 {
+  color:#3498DB;
+}
+.lastcall p.name {
+  float: left;
+  text-align: left;
+  font-size:13px;
+  margin-top: 30px;
+}
