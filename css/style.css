@@ -44,7 +44,7 @@ html, body{
 }
 
  /* Mobile Devices First then Other Devices */
-@media (max-width: 767px) {
+@media (min-width: 767px) {
   .container {
     float: left;
     width: 96%;
@@ -192,4 +192,3 @@ html, body{
  .benefits h2 {
    color:#3498DB;
  }
- 
