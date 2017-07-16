@@ -322,6 +322,6 @@ html, body{
 
  /* Lowering boxes in Testimonials */
 .lowerbox {
-  position: relative;
+  position: absolute;
   bottom: -20px;
 }
