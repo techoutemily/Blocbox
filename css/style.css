@@ -329,9 +329,15 @@ html, body{
 
  /* Last call to Action - Wilson */
 .lastcall {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
   float: left;
   padding:4em 0;
   text-align: center;
+  }
 }
 .lastcall h2 {
   color:#3498DB;
