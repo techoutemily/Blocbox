@@ -355,7 +355,7 @@ html, body{
    background-color: transparent;
  }
  footer .logo{
-   padding: 2.35em 0;
+   padding: 2.35em 2.35em;
    margin: 3 auto;
    display: block;
  }
