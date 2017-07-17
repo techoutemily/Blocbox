@@ -339,9 +339,9 @@ html, body{
  }
  footer p, footer nav ul {
    font-size:14px;
-   font-weight:50;
+   font-weight:100;
    text-align: center;
-   margin: 10x auto 0;
+   margin: 5x auto 0;
  }
  footer nav ul li {
    list-style-type: none;
