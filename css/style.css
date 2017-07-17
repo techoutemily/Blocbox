@@ -341,7 +341,7 @@ html, body{
    font-size:14px;
    font-weight:100;
    text-align: center;
-   margin: 5x auto 0;
+   margin: 10x auto 0;
  }
  footer nav ul li {
    list-style-type: none;
@@ -356,7 +356,7 @@ html, body{
  }
  footer .logo{
    padding: 2.35em 0;
-   margin: 5px auto;
+   margin: 10px auto;
    display: block;
  }
 
