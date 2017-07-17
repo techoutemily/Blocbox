@@ -339,7 +339,7 @@ html, body{
  }
  footer p, footer nav ul {
    font-size:14px;
-   font-weight:100;
+   font-weight:50;
    text-align: center;
    margin: 10x auto 0;
  }
