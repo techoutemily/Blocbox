@@ -44,13 +44,6 @@ html, body {
 }
 
  /* Mobile Devices First then Other Devices */
-@media (min-width: 500px) {
-  .container {
-    float: left;
-    width: 96%;
-  }
-}
-
 @media (min-width: 768px) {
    .container {
      width: 750px;
@@ -110,11 +103,25 @@ html, body {
  header nav {
    padding:1em 0;
  }
+ header nav .site-logo {
+   text-aligh: center;
+   display: block;
+ }
+ @media(min-width: 992px) {
+   header nav .site-logo {
+   }
+ }
  header nav ul {
-   display:inline;
-   text-align: right;
-   float:right;
+   display:block;
+   text-align: center;
    margin:0;
+ }
+ @media(mid-width: 992px) {
+   header nav ul {
+     display:inline;
+     text-align: right;
+     float:right;
+   }
  }
  header nav ul > li {
    list-style-type: none;
