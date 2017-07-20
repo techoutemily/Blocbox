@@ -367,8 +367,10 @@ html, body {
      height: 100px;
    }
    footer p, footer nav ul{
-     padding: 2em 0;
-     text-align: left;
+     font-size:14px;
+     font-weight:100;
+     text-aligh: center;
+     margin: 10x auto 0;
    }
    footer .right-footer-block {
      background-color: #3498DB;
