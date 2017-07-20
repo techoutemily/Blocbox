@@ -104,11 +104,12 @@ html, body {
    padding:1em 0;
  }
  header nav .site-logo {
-   text-aligh: center;
+   text-align: center;
    display: block;
  }
  @media(min-width: 992px) {
    header nav .site-logo {
+     text-align: left;
    }
  }
  header nav ul {
@@ -116,7 +117,7 @@ html, body {
    text-align: center;
    margin:0;
  }
- @media(mid-width: 992px) {
+ @media(min-width: 992px) {
    header nav ul {
      display:inline;
      text-align: right;
