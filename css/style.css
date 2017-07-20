@@ -385,5 +385,6 @@ html, body {
    }
    footer .logo{
      padding: 2em 0 2em 1.5em;
+     text-align: center
    }
  }
