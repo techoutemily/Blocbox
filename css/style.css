@@ -363,7 +363,6 @@ html, body {
  }
  footer .right-footer-block one-third {
    background-color: transparent;
-   margin: auto;
  }
  footer .logo {
    padding: 2.35em 0;
@@ -385,7 +384,6 @@ html, body {
      background-color: #3498DB;
    }
    footer .logo {
-      padding-bottom: 2.35em;
-      text-align: center;
+     padding: 2em 0 2em 1.5em;
    }
  }
