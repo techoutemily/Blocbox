@@ -351,10 +351,11 @@ html, body {
    font-size:14px;
    font-weight:100;
    text-align: center;
+   margin: 10px auto 0;
  }
  footer nav ul li {
    list-style-type: none;
-   display: inline;
+   display: inline-block;
  }
  footer nav ul li a {
    color:#FFFFFF;
