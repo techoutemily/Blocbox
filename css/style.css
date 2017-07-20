@@ -157,23 +157,6 @@ html, body {
    margin:3em auto 0;
  }
 
- @media (min-width: 500px) {
-   .hero img {
-     width:50%;
-   }
- }
-
- @media (min-width: 768px) {
-    .hero img {
-      width:75%;
-    }
-  }
-
-  @media (min-width: 992px) {
-    .hero img {
-      width:100%;
-    }
-
  /* BUTTONS */
  .btn {
    border-radius: 4px;
