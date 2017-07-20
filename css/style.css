@@ -159,19 +159,19 @@ html, body {
 
  @media (min-width: 500px) {
    .hero img {
-     width: 600px;
+     width:50%;
    }
  }
 
  @media (min-width: 768px) {
     .hero img {
-      width: 700px;
+      width:75%;
     }
   }
 
   @media (min-width: 992px) {
     .hero img {
-      width: 800px;
+      width:100%;
     }
 
  /* BUTTONS */
