@@ -367,6 +367,7 @@ html, body {
  footer .logo {
    margin: 0 auto;
    display: block;
+   padding: 1.5em 0
  }
  @media (min-width: 992px){
    footer{
