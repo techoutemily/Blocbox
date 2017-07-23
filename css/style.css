@@ -437,7 +437,7 @@ html, body {
     text-align: center;
     margin-right:8px;
   }
-  .left-nav .items ul li:active {
+  .left-nav .items ul li.current {
     background-color: yellow;
   }
   /* LEFT NAVBAR SETTINGS */
