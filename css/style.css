@@ -437,8 +437,8 @@ html, body {
     text-align: center;
     margin-right:8px;
   }
-  .left-nav .items ul li .current {
-    background-color: yellow;
+  .left-nav .items .current {
+    background-color: #34495E;
   }
   /* LEFT NAVBAR SETTINGS */
   .left-nav .settings {
