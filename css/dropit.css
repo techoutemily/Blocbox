@@ -28,14 +28,14 @@
 	margin: 20px 0 0;
 }
 /* Wilson Settings Menu Dropit Inverse*/
-.dropit .dropit-inverse .dropit-submenu {
+.dropit.dropit-inverse .dropit-submenu {
   position: absolute;
   top: inherit;
   bottom: 100%;
   right: 0; /* dropdown left or right */
   z-index: 1000;
   display: none;
-  min-width: 100px;
+  min-width: 145px;
   list-style: none;
 	padding: 20px;
 	margin: 20px 0 0;
@@ -59,11 +59,12 @@
   right: 10px;
  }
  /* Wilson Settings Menu Dropit Inverse*/
-.dropit .dropit-inverse .dropit-open .dropit-submenu:after {
+.dropit.dropit-inverse .dropit-open .dropit-submenu:after {
    content: " ";
+   top: inherit;
    position: absolute;
    border-style: solid;
-   border-width: 8 8px 0px;
+   border-width: 8px 8px 0;
    border-color: #FFFFFF transparent;
    display: block;
    width: 0;
