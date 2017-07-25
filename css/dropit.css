@@ -60,33 +60,32 @@
  }
 
  /* Wilson Gear Settings */
-.gearsettings {
- .dropit {
+.gearsettings .dropit {
    list-style: none;
- 	padding: 0;
- 	margin: 15px 0 0;
+ 	 padding: 0;
+ 	 margin: 15px 0 0;
    float:right;
    display:inline-block;
  }
- .dropit .dropit-trigger { position: relative; }
- .dropit .dropit-submenu {
+ .gearsettings .dropit .dropit-trigger { position: absolute; }
+ .gearsettings .dropit .dropit-submenu {
    position: absolute;
-   bottom: 100%;
-   right: 0; /* dropdown left or right */
+   bottom: 0;
+   left: 0; /* dropdown left or right */
    z-index: 1000;
-   display: none;
+   display: block;
    min-width: 100px;
    list-style: none;
- 	padding: 20px;
- 	margin: 20px 0 0;
+ 	 padding: 20px;
+ 	 margin: 20px 0 0;
  }
- .dropit .dropit-open .dropit-submenu {
+ .gearsettings .dropit .dropit-open .dropit-submenu {
    display: block;
    background: #FFFFFF;
    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.30);
    border-radius: 4px;
  }
- .dropit .dropit-open .dropit-submenu:after {
+ .gearsettings .dropit .dropit-open .dropit-submenu:after {
    content: " ";
    position: absolute;
    border-style: solid;
@@ -94,18 +93,18 @@
    border-color: #FFFFFF transparent;
    display: block;
    width: 0;
-   z-index: 1;
+   z-index:1;
    top: -8px;
    right: 10px;
   }
-  .dropit .dropit-open .dropit-submenu li {
+  .gearsettings .dropit .dropit-open .dropit-submenu li {
    display: block;
    margin-bottom: 20px;
   }
-  .dropit .dropit-open .dropit-submenu li:last-child {
+  .gearsettings .dropit .dropit-open .dropit-submenu li:last-child {
    margin-bottom: 0px;
   }
-  .dropit .dropit-open .dropit-submenu li a {
+  .gearsettings .dropit .dropit-open .dropit-submenu li a {
    color:#34495E;
    text-decoration: none;
    font-family: "Lato", Helvetica, Arial, sans-serif;
